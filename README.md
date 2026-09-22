@@ -212,7 +212,7 @@ git clone https://github.com/engsmathan-png/Retail_Sales_-_Profit_Analysis_Dashb
  Navigate to the project directory:
 
 ```
-cd YOUR_REPOSITORY
+cd Retail_Sales_-_Profit_Analysis_Dashboard
 ```
 
  ### 3\. Open the Power BI File
