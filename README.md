@@ -1,176 +1,292 @@
+---
+# 📊 Retail Sales & Profit Analysis Dashboard
 
+An interactive **Microsoft Power BI dashboard** designed to analyze retail sales performance, revenue, profit, costs, quantity sold, product performance, retailer types, countries, and transaction trends.
 
-````
-# 📊 Sales & Profit Dashboard
-
-An interactive business intelligence dashboard designed to analyze sales performance, revenue, profit, costs, product performance, and retailer distribution.
-
-## 📸 Dashboard Preview
-
-![Sales and Profit Dashboard](dashboard.png)
-
-## 🔗 Project Links
-
-- **GitHub Repository:** (https://github.com/engsmathan-png/Sales_-_Profit_Dashboard.git)
-- **Dashboard Screenshot:** (dashboard.png)
+The dashboard provides an interactive and visual way to explore key business metrics and identify patterns across products, locations, retailer types, and transaction dates.
 
 ---
 
-## 📌 Overview
+## 📸 Dashboard Preview
 
-This dashboard provides a comprehensive view of sales and profitability across different product lines, countries, retailer types, cities, and transaction dates.
+![Retail Sales & Profit Analysis Dashboard](dashboard.png)
 
-It brings key business metrics together in a single interactive dashboard to make it easier to understand revenue trends, profitability, product performance, and cost distribution.
+### 🔗 Dashboard Project
 
-## 📈 Key Performance Indicators
+👉 **GitHub Repository:**
+https://github.com/engsmathan-png/Retail_Sales_-_Profit_Analysis_Dashboard.git
 
-| Metric | Value |
+---
+
+## 📌 Project Overview
+
+This project presents a retail sales and profitability dashboard developed using **Microsoft Power BI**.
+
+The dashboard combines multiple visualizations to provide an overview of business performance, including:
+
+- Total Profit
+- Total Revenue
+- Quantity Sold
+- Total Cost
+- Revenue and Profit trends
+- Cost by Retailer City
+- Cost by Retailer Type
+- Revenue by Product Type
+- Revenue by Country
+- Product Line filtering
+
+---
+
+## 🎯 Project Objectives
+
+The main objectives of this dashboard are to:
+
+- Monitor overall retail business performance.
+- Analyze revenue and profit trends over time.
+- Understand the distribution of business costs.
+- Compare product performance across countries.
+- Analyze retailer-related costs.
+- Explore geographical sales and cost patterns.
+- Provide an interactive interface for business analysis.
+
+---
+
+## 📊 Key Performance Indicators
+
+The dashboard displays four primary KPIs:
+
+| KPI | Value |
 |---|---:|
-| **Total Profit (CM)** | **$134.66M** |
-| **Total Revenue (CC)** | **$359.89M** |
-| **Quantity Sold** | **7M** |
-| **Total Cost** | **$225.24M** |
+| 💰 Total Profit | **$4.65M** |
+| 💵 Total Revenue | **$7.51M** |
+| 📦 Quantity Sold | **1M** |
+| 💸 Total Cost | **$2.86M** |
 
-## 📊 Dashboard Features
+> These values represent the dashboard state shown in the provided screenshot and may change based on applied filters.
 
-### 1. Product Line Analysis
-The dashboard allows users to filter and analyze performance across:
+---
+
+## 🎛️ Product Line Filter
+
+The dashboard contains a **Product Line** slicer that allows users to filter the analysis by:
 
 - Camping Equipment
 - Mountaineering Equipment
 - Outdoor Protection
 
-### 2. Revenue & Profit Trends
-The time-series visualization shows revenue and profit performance by transaction date, helping identify:
-
-- Revenue trends
-- Profit trends
-- Seasonal patterns
-- Changes in business performance over time
-
-### 3. Geographic Analysis
-The map visualization displays total cost by retailer city, providing a geographical view of business costs across different locations.
-
-### 4. Product Type & Country Analysis
-Revenue is analyzed by product type and country, including:
-
-- Canada
-- China
-- United States
-
-Product categories include:
-
-- Tents
-- Sleeping Bags
-- Rope
-- Lanterns
-- Climbing Accessories
-- Insect Repellents
-- Sunscreen
-
-### 5. Retailer Type Analysis
-The dashboard also breaks down total cost by retailer type, including:
-
-- Outdoors Shop
-- Sports Store
-- Warehouse Store
-- Department Store
-- Equipment Rental Store
-- Direct Marketing
+Changing the product line dynamically updates the dashboard visualizations.
 
 ---
 
-## 🎯 Business Questions Addressed
+## 🗺️ Dashboard Visualizations
 
-This dashboard helps answer questions such as:
+### 1. Total Cost by Retailer City
 
-- What is the total revenue and profit?
-- How much product has been sold?
-- How does revenue change over time?
-- Which product types generate the most revenue?
-- How does revenue differ between countries?
-- Which retailer types contribute the most to total cost?
-- How are costs distributed geographically?
-- Which product lines should be analyzed further?
+A geographical map displays the **total cost incurred by retailer city**.
+
+The map provides a geographical view of retailer-related costs across different locations.
+
+Example locations shown include:
+
+- Chicago
+- Houston
+- Calgary
+- Los Angeles
+- Ottawa
+- Glasgow
+- Liverpool
+- London
+- Beijing
+- Shanghai
+- Sydney
+- Melbourne
+- Brisbane
+
+---
+
+### 2. Revenue and Profit by Transaction Date
+
+A time-series chart compares:
+
+- **Revenue (CC)**
+- **Profit (CM)**
+
+across transaction dates.
+
+This visualization helps analyze changes in revenue and profitability over time.
+
+---
+
+### 3. Cost Incurred by Retailer Type
+
+A donut chart represents the distribution of costs across different retailer types.
+
+The dashboard includes categories such as:
+
+- Warehouse Stores
+- Direct Marketing
+- Outdoor Shops
+- Sports Stores
+- Department Stores
+- Equipment Retailers
+
+This visualization helps understand how total costs are distributed among different retail channels.
+
+---
+
+### 4. Revenue by Product Type and Country
+
+A stacked bar chart compares revenue across different products and countries.
+
+#### Product Types
+
+- Insect Repellents
+- Sunscreen
+- First Aid
+
+#### Countries
+
+- 🇨🇦 Canada
+- 🇨🇳 China
+- 🇺🇸 United States
+
+This allows users to compare product-level revenue across different countries.
+
+---
+
+## 📈 Dashboard Features
+
+- Interactive KPI cards
+- Product Line slicer
+- Geographical map visualization
+- Revenue trend analysis
+- Profit trend analysis
+- Retailer cost analysis
+- Product-level revenue analysis
+- Country-level comparison
+- Interactive cross-filtering
+- Business performance overview
 
 ---
 
 ## 🛠️ Tools & Technologies
 
-- **Microsoft Power BI** – Dashboard development and visualization
-- **Power Query** – Data preparation and transformation
-- **DAX** – Measures and calculations
-- **Data Visualization** – KPI cards, line/area charts, maps, stacked bar charts, and donut charts
-- **GitHub** – Project documentation and version control
+| Technology | Purpose |
+|---|---|
+| **Microsoft Power BI** | Dashboard development and visualization |
+| **Power Query** | Data transformation and preparation |
+| **DAX** | Calculated measures and KPIs |
+| **Data Visualization** | Interactive business analytics |
 
 ---
 
-## 📂 Suggested Project Structure
+## 📂 Project Structure
 
 ```text
-Sales-Profit-Dashboard/
+Retail-Sales-Profit-Analysis/
 │
 ├── README.md
 │
-├── assets/
+├── screenshots/
 │   └── dashboard.png
 │
-├── dashboard/
-│   └── Sales-Profit-Dashboard.pbix
+├── data/
+│   └── retail_sales_data.csv
 │
-└── data/
-    └── dataset.csv
+└── PowerBI/
+    └── Retail_Sales_Dashboard.pbix
 ````
-
 
 ---
 
  ## 🚀 How to Use
 
- 1. Clone or download this repository.
-2. Open the `.pbix` file using Microsoft Power BI Desktop.
-3. Refresh the data if the source files are available.
-4. Use the dashboard filters and visualizations to explore the data.
-5. Select different product lines and analyze their impact on revenue, profit, and costs.
+ ### 1\. Clone the Repository
+
+```
+git clone https://github.com/engsmathan-png/Retail_Sales_-_Profit_Analysis_Dashboard.git
+```
+
+ ### 2\. Open the Project
+
+ Navigate to the project directory:
+
+```
+cd YOUR_REPOSITORY
+```
+
+ ### 3\. Open the Power BI File
+
+ Open:
+
+```
+PowerBI/Retail_Sales_Dashboard.pbix
+```
+
+ using **Microsoft Power BI Desktop**.
+
+ ### 4\. Explore the Dashboard
+
+ Use the available filters and interactive visualizations to explore:
+
+ - Product lines
+- Revenue
+- Profit
+- Costs
+- Quantity sold
+- Countries
+- Retailer types
+- Cities
+- Transaction dates
 
 ---
 
- ## 📷 Dashboard Screenshot
+ ## 💡 Business Questions Addressed
 
- The dashboard provides an executive-level overview of sales performance with interactive filters and visualizations.
+ This dashboard can be used to answer questions such as:
+
+ - What is the total revenue generated?
+- What is the total profit?
+- What is the total cost?
+- How many products have been sold?
+- How does revenue change over time?
+- How does profit change over time?
+- How are costs distributed among retailer types?
+- Which products contribute to revenue?
+- How does revenue vary across countries?
+- Which cities have retailer-related costs?
+- How does performance change for different product lines?
+
+ ## 🔮 Future Improvements
+
+ Possible enhancements include:
+
+ - Add Year-over-Year analysis
+- Add profit margin KPIs
+- Add monthly and quarterly filters
+- Add drill-through pages
+- Add detailed product analysis
+- Add retailer performance analysis
+- Add additional geographical insights
+- Add automated data refresh
+- Improve mobile/tablet layout
+- Add additional DAX measures
 
 ---
 
- ## 👤 Author
+ ## 👨‍💻 Author
 
- **MATHAN**
+ **Mathan**
 
- - GitHub: engsmathan-png
+ ### Connect With Me
+
+ - 💻 GitHub: https://github.com/engsmathan-png
+- 
 
 ---
 
- ## ⭐ Support
+ ## 📄 License
 
- If you find this project useful, consider giving the repository a ⭐ on GitHub.
+ This project is intended for educational, portfolio, and data-analysis purposes.
 
-````
-
-### Recommended GitHub setup
-
-Rename your uploaded screenshot to:
-
-```text
-dashboard.png
-````
-
- and place it here:
-
-```
-assets/dashboard.png
-```
-
- Then replace:
-
-```
-https://github.com/engsmathan-png/Sales_-_Profit_Dashboard.git
-```
+ If the underlying dataset is obtained from a third party, please refer to the original dataset's licensing and usage terms.
