@@ -11,8 +11,8 @@ An interactive business intelligence dashboard designed to analyze sales perform
 
 ## 🔗 Project Links
 
-- **GitHub Repository:** [View the source code](https://github.com/engsmathan-png/Sales_-_Profit_Dashboard.git)
-- **Dashboard Screenshot:** [View full-size screenshot](dashboard.png)
+- **GitHub Repository:** (https://github.com/engsmathan-png/Sales_-_Profit_Dashboard.git)
+- **Dashboard Screenshot:** (dashboard.png)
 
 ---
 
@@ -174,9 +174,3 @@ assets/dashboard.png
 ```
 https://github.com/engsmathan-png/Sales_-_Profit_Dashboard.git
 ```
-
- with your actual GitHub repository URL.
-
- GitHub recommends relative paths for images stored inside the repository, which makes the README portable when the repository is cloned.  GitHub Docs
-
- If you give me your **engsmathan-png**, I can also customize the README with your exact repository link and author section.
