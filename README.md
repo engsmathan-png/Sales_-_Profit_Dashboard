@@ -1,4 +1,4 @@
-Absolutely — here’s a polished `README.md` you can copy directly into your GitHub repository. GitHub supports relative image paths in README files, so I recommend placing the screenshot in an `assets` folder.  GitHub Docs+1
+
 
 ````
 # 📊 Sales & Profit Dashboard
