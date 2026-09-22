@@ -9,7 +9,7 @@ The dashboard provides an interactive and visual way to explore key business met
 
 ## 📸 Dashboard Preview
 
-![Retail Sales & Profit Analysis Dashboard](dashboard.png)
+![alt text](dashborad.png)
 
 ### 🔗 Dashboard Project
 
